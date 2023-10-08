@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program if-else</title>
+</head>
+<body>
+    <h1>If Else Statement</h1>
+    <!-- Input nilai dengan elemen input -->
+    <label for="nilaiInput">Masukkan nilai Anda:</label>
+    <input type="text" id="nilaiInput" />
+    <button onclick="cekNilai()">Cek Nilai</button>
+
+    <!-- Output hasil evaluasi kondisi -->
+    <p id="hasil1"></p> <!-- Menggunakan ID yang berbeda -->
+
+    <h1>Nested If</h1>
+    <label for="nilaiMatematikaInput">Masukkan nilai Matematika:</label>
+    <input type="text" id="nilaiMatematikaInput"><br>
+
+    <!-- Input nilai Bahasa Inggris dengan elemen input -->
+    <label for="nilaiInggrisInput">Masukkan nilai Bahasa Inggris:</label>
+    <input type="text" id="nilaiInggrisInput"><br>
+
+    <!-- Tombol untuk memeriksa hasil -->
+    <button onclick="cekNilaiMatematikaInggris()">Cek Nilai</button> <!-- Menggunakan fungsi yang berbeda -->
+
+    <!-- Output hasil evaluasi kondisi -->
+    <p id="hasil2"></p> <!-- Menggunakan ID yang berbeda -->
+
+    <!-- Hubungkan file JavaScript -->
+    <script src="script.js"></script>
+
+
+    <h1>Program Switch-Case</h1>
+    <!-- Input hari dengan elemen select -->
+    <label for="bulan">Pilih bulan:</label>
+    <select id="bulan">
+        <option value="januari">Januari</option>
+        <option value="Februari">Februari</option>
+        <option value="Maret">Maret</option>
+        <option value="April">April</option>
+    </select>
+    <button onclick="tampilkanBulan()">Tampilkan Bulan</button>
+    <!-- Output hasil evaluasi kondisi -->
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+
+
+    <!-------contoh for------->
+    <h1>Program For Loop</h1>
+    <!-- Input jumlah iterasi dengan elemen input -->
+    <label for="iterasi">Jumlah Iterasi:</label>
+    <input type="number" id="iterasi" />
+    <button id="tombolHitung">Hitung</button>
+    <!-- Output hasil perulangan -->
+    <ul id="hasilPerulangan"></ul>
+    <script src="script.js"></script>
+
+    <!------contoh while------>
+    <h1>Program While Loop</h1>
+    <!-- Input nilai n dengan elemen input -->
+    <label for="n">Masukkan nilai n:</label>
+    <input type="number" id="n" />
+    <button id="tombolCetak">Cetak Angka</button>
+    <!-- Output hasil perulangan -->
+    <div id="hasilCetak"></div>
+    <script src="script.js"></script>
+
+    <!------do while------>
+    <h1>Program Do-While Loop</h1>
+    <button id="tombol">Klik untuk memulai</button>
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+
+
+    <!------function------>
+    <h1>Hasil Operasi Matematika</h1>
+    <p>Hasil pengurangan 10 - 3: <span id="hasilKurang"></span></p>
+    <p>Hasil pembagian 20 / 4: <span id="hasilBagi"></span></p>
+    <p>Akar kuadrat dari 16: <span id="hasilAkarKuadrat"></span></p>
+    <script src="script.js"></script>
+</body>
+</html>
